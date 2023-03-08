@@ -11,4 +11,6 @@ public class Event : BaseEntity
     public int? MaxDistance { get; set; }
     public bool Inactive { get; set; } = false;
     public Guid UserId { get; set; }
+    public List<EventField> Fields { get; set; } = null!;
+    public List<ScheduleEvent> ScheduleEvents { get; set; } = null!;
 }
