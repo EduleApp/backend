@@ -13,16 +13,9 @@
         "packagesPath": "/home/wesley/.nuget/packages/",
         "outputPath": "/home/wesley/Workspace/edule/2023/backend/Edule.Backend/obj/",
         "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/home/wesley/.nuget/NuGet/NuGet.Config"
-        ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/Edenred-TicketBenefits/_packaging/Default/nuget/v3/index.json": {}
-        },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
@@ -42,6 +35,10 @@
             "EntityFramework": {
               "target": "Package",
               "version": "[6.4.4, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             }
           },
           "imports": [
