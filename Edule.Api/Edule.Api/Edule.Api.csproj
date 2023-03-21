@@ -1,0 +1,86 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+        <PackageReference Include="Microsoft.AspNetCore.Mvc.Cors" Version="2.2.0" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.4" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.4">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="MySql.EntityFrameworkCore" Version="7.0.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Infra\Data\Entities" />
+      <Folder Include="Infra\Data\Mappings" />
+      <Folder Include="Infra\Data\Migrations" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="bin\Debug\net6.0\appsettings.Development.json" />
+      <Content Include="bin\Debug\net6.0\appsettings.json" />
+      <Content Include="bin\Debug\net6.0\BouncyCastle.Crypto.dll" />
+      <Content Include="bin\Debug\net6.0\comerr64.dll" />
+      <Content Include="bin\Debug\net6.0\Edule.Api" />
+      <Content Include="bin\Debug\net6.0\Edule.Api.deps.json" />
+      <Content Include="bin\Debug\net6.0\Edule.Api.dll" />
+      <Content Include="bin\Debug\net6.0\Edule.Api.pdb" />
+      <Content Include="bin\Debug\net6.0\Edule.Api.runtimeconfig.json" />
+      <Content Include="bin\Debug\net6.0\Google.Protobuf.dll" />
+      <Content Include="bin\Debug\net6.0\gssapi64.dll" />
+      <Content Include="bin\Debug\net6.0\Humanizer.dll" />
+      <Content Include="bin\Debug\net6.0\K4os.Compression.LZ4.dll" />
+      <Content Include="bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll" />
+      <Content Include="bin\Debug\net6.0\K4os.Hash.xxHash.dll" />
+      <Content Include="bin\Debug\net6.0\k5sprt64.dll" />
+      <Content Include="bin\Debug\net6.0\krb5_64.dll" />
+      <Content Include="bin\Debug\net6.0\krbcc64.dll" />
+      <Content Include="bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll" />
+      <Content Include="bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll" />
+      <Content Include="bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll" />
+      <Content Include="bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll" />
+      <Content Include="bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll" />
+      <Content Include="bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll" />
+      <Content Include="bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll" />
+      <Content Include="bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
+      <Content Include="bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll" />
+      <Content Include="bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll" />
+      <Content Include="bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll" />
+      <Content Include="bin\Debug\net6.0\Microsoft.Extensions.Logging.dll" />
+      <Content Include="bin\Debug\net6.0\Microsoft.Extensions.Options.dll" />
+      <Content Include="bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll" />
+      <Content Include="bin\Debug\net6.0\Microsoft.OpenApi.dll" />
+      <Content Include="bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll" />
+      <Content Include="bin\Debug\net6.0\Mono.TextTemplating.dll" />
+      <Content Include="bin\Debug\net6.0\MySql.Data.dll" />
+      <Content Include="bin\Debug\net6.0\MySql.EntityFrameworkCore.dll" />
+      <Content Include="bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll" />
+      <Content Include="bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll" />
+      <Content Include="bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll" />
+      <Content Include="bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll" />
+      <Content Include="bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll" />
+      <Content Include="bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll" />
+      <Content Include="bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll" />
+      <Content Include="bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll" />
+      <Content Include="bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll" />
+      <Content Include="bin\Debug\net6.0\System.CodeDom.dll" />
+      <Content Include="bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll" />
+      <Content Include="bin\Debug\net6.0\System.Drawing.Common.dll" />
+      <Content Include="bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll" />
+      <Content Include="bin\Debug\net6.0\System.Security.Permissions.dll" />
+      <Content Include="bin\Debug\net6.0\System.Text.Encodings.Web.dll" />
+      <Content Include="bin\Debug\net6.0\System.Text.Json.dll" />
+      <Content Include="bin\Debug\net6.0\System.Windows.Extensions.dll" />
+      <Content Include="bin\Debug\net6.0\ZstdNet.dll" />
+    </ItemGroup>
+
+</Project>
