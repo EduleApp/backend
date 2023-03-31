@@ -1,9 +1,9 @@
 using System.Net;
 using Edule.Api.Infra;
-using Edule.Api.Models;
 using Edule.Api.Infra.Data.Entities;
-using Edule.Api.Interfaces;
 using Edule.Api.Interfaces.Repositories;
+using Edule.Api.Interfaces.Services;
+using Edule.Api.Models;
 
 namespace Edule.Api.Services;
 
@@ -55,5 +55,15 @@ public class EventService : IEventService
         });
 
         return response;
+    }
+    
+    public async Task<IEnumerable<Event>> GetAllEvents()
+    {
+        return await _eventRepository.GetAllEvents();
+    }
+    
+    public async Task<Event> GetByIdAsync(Guid id)
+    {
+        return (await _eventRepository.GetByIdAsync(id))!;
     }
 }

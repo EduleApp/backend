@@ -1,8 +1,11 @@
+using Edule.Api.GraphQl.Schemas;
 using Edule.Api.Infra.Data;
 using Edule.Api.Interfaces;
 using Edule.Api.Interfaces.Repositories;
+using Edule.Api.Interfaces.Services;
 using Edule.Api.Repositories;
 using Edule.Api.Services;
+using GraphQL;
 using Microsoft.EntityFrameworkCore;
 
 namespace Edule.Api.Infra.DI;
@@ -27,9 +30,16 @@ public static class RegisterDependencies
         =>
             serviceCollection
                 .AddScoped<IEventRepository, EventRepository>();
-    
+
     public static IServiceCollection RegisterServices(this IServiceCollection serviceCollection)
-        =>
-            serviceCollection
-                .AddScoped<IEventService, EventService>();
+    {
+        return serviceCollection
+            .AddScoped<IEventService, EventService>()
+            .AddScoped<EventSchema>(); 
+    }
+    public static IServiceCollection AddGraphQl(this IServiceCollection serviceCollection)
+    {
+        return serviceCollection
+            .AddSingleton<IDocumentExecuter, DocumentExecuter>();
+    }
 }

@@ -1,3 +1,4 @@
+using Edule.Api.Converters;
 using Edule.Api.Infra.DI;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,6 +12,13 @@ builder.Services.AddSwaggerGen();
 builder.Services.RegisterInfrastructure();
 builder.Services.RegisterRepositories();
 builder.Services.RegisterServices();
+builder.Services.AddGraphQl();
+
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.Converters.Add(new EventConverter());
+    });
 
 var app = builder.Build();
 
@@ -26,5 +34,14 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.UseRouting();
+
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapGraphQL();
+});
+
+//app.UseGraphQL();
 
 app.Run();

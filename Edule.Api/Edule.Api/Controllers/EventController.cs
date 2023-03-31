@@ -1,30 +1,33 @@
-using System.Net;
-using Edule.Api.Infra.Data.Entities;
-using Edule.Api.Interfaces;
-using Edule.Api.Models;
+using HotChocolate.Execution;
+using HotChocolate.Language;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Edule.Api.Controllers;
 
 [ApiController]
-[Route("event")]
-public class EventController : Controller
+[Route("graphql")]
+public class GraphQlController : ControllerBase
 {
-    private readonly IEventService _eventService;
+    private readonly IRequestExecutor _executor;
 
-    public EventController(IEventService eventService)
+    public GraphQlController(IRequestExecutor executor)
     {
-        _eventService = eventService;
+        _executor = executor;
     }
 
     [HttpPost]
-    [ProducesResponseType(typeof(Event), (int)HttpStatusCode.Created)]
-    [ProducesResponseType((int)HttpStatusCode.BadRequest)]
-    [ProducesResponseType(typeof(List<string>), (int)HttpStatusCode.InternalServerError)]
-    public async Task<IActionResult> Create([FromBody] EventRequest eventRequest)
+    public async Task<IActionResult> Post([FromBody] GraphQLRequest request)
     {
-        var response = await _eventService.CreateEvent(eventRequest);
+        var inputs = request.Variables != null
+            ? request.Variables
+                .ToDictionary(k => k.Key, v => v.Value)!
+            : new Dictionary<string, object>();
 
-        return StatusCode((int)response.ResponseCode, response.Valid ? response.Data : response.Errors);
+        var document = Utf8GraphQLParser.Parse(request.Query!.ToString());
+
+        var result = await _executor.ExecuteAsync(new QueryRequest(document, inputs));
+
+        //var result = await _executor.ExecuteAsync(new QueryRequest(document, inputs));
+        return Ok(result);
     }
 }

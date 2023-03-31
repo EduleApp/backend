@@ -1,6 +1,7 @@
 using Edule.Api.Infra.Data;
 using Edule.Api.Infra.Data.Entities;
 using Edule.Api.Interfaces.Repositories;
+using Microsoft.EntityFrameworkCore;
 
 namespace Edule.Api.Repositories;
 
@@ -24,4 +25,15 @@ public class EventRepository : IEventRepository
         await _context.SaveChangesAsync();
         return result.Entity.Id;
     }
+    
+    public async Task<List<Event>> GetAllEvents()
+    {
+        return await _context.Event.ToListAsync();
+    }
+
+    public async Task<Event?> GetByIdAsync(Guid id)
+    {
+        return await _context.FindAsync<Event>(id);
+    }
+        
 }
