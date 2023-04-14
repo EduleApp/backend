@@ -1,6 +1,7 @@
 using System.Net;
 using Edule.Api.Infra.Data.Entities;
 using Edule.Api.Interfaces;
+using Edule.Api.Interfaces.Services;
 using Edule.Api.Models;
 using Microsoft.AspNetCore.Mvc;
 

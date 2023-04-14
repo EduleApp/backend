@@ -1,43 +1,31 @@
 using System.Net;
+using AutoMapper;
 using Edule.Api.Infra;
-using Edule.Api.Models;
 using Edule.Api.Infra.Data.Entities;
-using Edule.Api.Interfaces;
 using Edule.Api.Interfaces.Repositories;
+using Edule.Api.Interfaces.Services;
+using Edule.Api.Models;
 
 namespace Edule.Api.Services;
 
 public class EventService : IEventService
 {
     private readonly IEventRepository _eventRepository;
+    private readonly IMapper _mapper;
 
-    public EventService(IEventRepository eventRepository)
+    public EventService(
+        IEventRepository eventRepository,
+        IMapper mapper)
     {
         _eventRepository = eventRepository;
+        _mapper = mapper;
     }
 
     public async Task<ResponseContract<EventResponse>> CreateEvent(EventRequest eventRequest)
     {
         ResponseContract<EventResponse> response = new();
-        
-        var newEvent = new Event
-        {
-            Title = eventRequest.Title,
-            Description = eventRequest.Description,
-            Slug = eventRequest.Slug,
-            Color = eventRequest.Color,
-            Duration = eventRequest.Duration,
-            AtHome = eventRequest.AtHome,
-            MaxDistance = eventRequest.MaxDistance,
-            Inactive = eventRequest.Inactive,
-            UserId = eventRequest.UserId,
-            Fields = eventRequest.Fields?.Select(f => new EventField
-            {
-                FieldName = f.FieldName,
-                FriendlyName = f.FriendlyName,
-                Type = f.Type
-            }).ToList()
-        };
+        var newEvent = _mapper.Map<Event>(eventRequest);
+        newEvent.Fields = _mapper.Map<List<EventField>?>(eventRequest.Fields);
 
         var result = await _eventRepository.Create(newEvent);
 
@@ -55,5 +43,15 @@ public class EventService : IEventService
         });
 
         return response;
+    }
+    
+    public async Task<IEnumerable<Event>> GetAllEvents()
+    {
+        return await _eventRepository.GetAllEvents();
+    }
+    
+    public async Task<Event> GetByIdAsync(Guid id)
+    {
+        return (await _eventRepository.GetByIdAsync(id))!;
     }
 }

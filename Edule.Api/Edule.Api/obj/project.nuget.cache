@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "AJYU8OI1c2fmI8kMQ9chOku2athqyN3md65CukPg1t6Hc9LM4t3Q1xaa1Z/ijjInR1aq830+uC3zPR2lZkKEhw==",
+  "dgSpecHash": "ZRnwzeW/Kt5ZSCy/BffQsetm4/3sQPPldeCyUHq5WPyxzXIru4zPcG8zoIYcm6NzUu1d6qBjpRRlHbGgF0nLPQ==",
   "success": true,
   "projectFilePath": "/home/wesley/Workspace/edule/2023/backend/Edule.Api/Edule.Api/Edule.Api.csproj",
   "expectedPackageFiles": [
+    "/home/wesley/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/home/wesley/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "/home/wesley/.nuget/packages/google.protobuf/3.21.9/google.protobuf.3.21.9.nupkg.sha512",
     "/home/wesley/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/wesley/.nuget/packages/k4os.compression.lz4/1.2.6/k4os.compression.lz4.1.2.6.nupkg.sha512",
@@ -27,6 +29,7 @@
     "/home/wesley/.nuget/packages/microsoft.aspnetcore.routing/2.2.0/microsoft.aspnetcore.routing.2.2.0.nupkg.sha512",
     "/home/wesley/.nuget/packages/microsoft.aspnetcore.routing.abstractions/2.2.0/microsoft.aspnetcore.routing.abstractions.2.2.0.nupkg.sha512",
     "/home/wesley/.nuget/packages/microsoft.aspnetcore.webutilities/2.2.0/microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512",
+    "/home/wesley/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/home/wesley/.nuget/packages/microsoft.entityframeworkcore/7.0.4/microsoft.entityframeworkcore.7.0.4.nupkg.sha512",
     "/home/wesley/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.4/microsoft.entityframeworkcore.abstractions.7.0.4.nupkg.sha512",
     "/home/wesley/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.4/microsoft.entityframeworkcore.analyzers.7.0.4.nupkg.sha512",
