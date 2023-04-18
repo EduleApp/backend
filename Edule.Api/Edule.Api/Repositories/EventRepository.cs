@@ -28,11 +28,21 @@ public class EventRepository : IEventRepository
     
     public async Task<List<Event>> GetAllEvents()
     {
-        return await _context.Event.ToListAsync();
+        return await _context.Event.Include(e => e.Fields)
+            .ToListAsync();
     }
 
     public async Task<Event?> GetByIdAsync(Guid id)
     {
-        return await _context.FindAsync<Event>(id);
+        return await _context.Event
+            .Include(e => e.Fields)
+            .FirstOrDefaultAsync(e => e.Id == id);
+    }
+    
+    public async Task<bool> Delete(Event existingEvent)
+    {
+        _context.Event.Remove(existingEvent);
+        await _context.SaveChangesAsync();
+        return true;
     }
 }

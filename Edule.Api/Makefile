@@ -12,9 +12,9 @@ ifeq ($(OS),Windows_NT)
 	powershell -c "wsl docker-compose -f API-docker-compose.yml up --build"
 else
 ifdef $(COMPOSE)
-	docker-compose -f API-docker-compose.yml up -d --build
+	docker-compose -f docker-compose.yml up -d --build
 else
-	docker compose -f API-docker-compose.yml up -d --build	
+	docker compose -f docker-compose.yml up -d --build	
 endif
 endif
 

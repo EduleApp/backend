@@ -1,6 +1,5 @@
 using System.Net;
 using Edule.Api.Infra.Data.Entities;
-using Edule.Api.Interfaces;
 using Edule.Api.Interfaces.Services;
 using Edule.Api.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -27,5 +26,71 @@ public class EventController : Controller
         var response = await _eventService.CreateEvent(eventRequest);
 
         return StatusCode((int)response.ResponseCode, response.Valid ? response.Data : response.Errors);
+    }
+    
+    [HttpGet]
+    [ProducesResponseType(typeof(List<Event>), (int)HttpStatusCode.OK)]
+    [ProducesResponseType(typeof(List<Event>), (int)HttpStatusCode.NotFound)]
+    [ProducesResponseType((int)HttpStatusCode.BadRequest)]
+    public async Task<IActionResult> FindAll()
+    {
+        try
+        {
+            var result = await _eventService.GetAllEvents();
+            if (!result.Any())
+            {
+                return NotFound();
+            }
+
+            return Ok(result);
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(ex);
+        }
+    }
+    
+    [HttpGet("{id}")]
+    [ProducesResponseType(typeof(Event), (int)HttpStatusCode.OK)]
+    [ProducesResponseType((int)HttpStatusCode.NotFound)]
+    [ProducesResponseType((int)HttpStatusCode.BadRequest)]
+    public async Task<IActionResult> GetEventById(Guid id)
+    {
+        try
+        {
+            var result = await _eventService.GetByIdAsync(id);
+            if (result == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(result);
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(ex);
+        }
+    }
+    
+    [HttpDelete("{id}")]
+    [ProducesResponseType((int)HttpStatusCode.NoContent)]
+    [ProducesResponseType((int)HttpStatusCode.NotFound)]
+    [ProducesResponseType((int)HttpStatusCode.BadRequest)]
+    public async Task<IActionResult> Delete(Guid id)
+    {
+        try
+        {
+            var response = await _eventService.DeleteEventById(id);
+            if (!response)
+            {
+                return NotFound();
+            }
+
+            return NoContent();
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(ex);
+        }
     }
 }

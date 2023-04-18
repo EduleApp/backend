@@ -21,7 +21,6 @@
 /home/wesley/Workspace/edule/2023/backend/Edule.Api/Edule.Api/obj/Debug/net6.0/scopedcss/bundle/Edule.Api.styles.css
 /home/wesley/Workspace/edule/2023/backend/Edule.Api/Edule.Api/obj/Debug/net6.0/Edule.Api.csproj.CopyComplete
 /home/wesley/Workspace/edule/2023/backend/Edule.Api/Edule.Api/obj/Debug/net6.0/Edule.Api.dll
-/home/wesley/Workspace/edule/2023/backend/Edule.Api/Edule.Api/obj/Debug/net6.0/refint/Edule.Api.dll
 /home/wesley/Workspace/edule/2023/backend/Edule.Api/Edule.Api/obj/Debug/net6.0/Edule.Api.pdb
 /home/wesley/Workspace/edule/2023/backend/Edule.Api/Edule.Api/obj/Debug/net6.0/Edule.Api.genruntimeconfig.cache
 /home/wesley/Workspace/edule/2023/backend/Edule.Api/Edule.Api/obj/Debug/net6.0/ref/Edule.Api.dll
@@ -69,3 +68,6 @@
 /home/wesley/Workspace/edule/2023/backend/Edule.Api/Edule.Api/bin/Debug/net6.0/System.Text.Encodings.Web.dll
 /home/wesley/Workspace/edule/2023/backend/Edule.Api/Edule.Api/bin/Debug/net6.0/System.Text.Json.dll
 /home/wesley/Workspace/edule/2023/backend/Edule.Api/Edule.Api/bin/Debug/net6.0/runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll
+/home/wesley/Workspace/edule/2023/backend/Edule.Api/Edule.Api/bin/Debug/net6.0/ref/Edule.Api.dll
+/home/wesley/Workspace/edule/2023/backend/Edule.Api/Edule.Api/bin/Debug/net6.0/AutoMapper.dll
+/home/wesley/Workspace/edule/2023/backend/Edule.Api/Edule.Api/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll

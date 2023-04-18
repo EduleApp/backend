@@ -54,4 +54,18 @@ public class EventService : IEventService
     {
         return (await _eventRepository.GetByIdAsync(id))!;
     }
+    
+    public async Task<bool> DeleteEventById(Guid id)
+    {
+        var existingEvent = await _eventRepository.GetByIdAsync(id);
+
+        if (existingEvent == null)
+        {
+            return false;
+        }
+
+        await _eventRepository.Delete(existingEvent);
+
+        return true;
+    }
 }
