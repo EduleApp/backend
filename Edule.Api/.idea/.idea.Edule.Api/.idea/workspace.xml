@@ -9,29 +9,122 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8c07372-ff17-4f1b-a970-2a40155724db" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Edule.Api/Infra/Data/Migrations/20230321100401_Initial.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Edule.Api/Infra/Data/Migrations/20230321100401_Initial.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Edule.Api/Infra/Data/Migrations/EduleDbContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.backend.dir/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.idea.backend.dir/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.backend.dir/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.idea.backend.dir/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.backend.dir/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.idea.backend.dir/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.backend.dir/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.idea.backend.dir/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Edule.Api/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Edule.Api/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Edule.Api/.idea/httpRequests/2023-03-18T105746.404.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Edule.Api/.idea/httpRequests/2023-03-18T105746.404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Edule.Api/.idea/httpRequests/2023-03-18T111437.404.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Edule.Api/.idea/httpRequests/2023-03-18T111437.404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Edule.Api/.idea/httpRequests/2023-03-18T111451.404.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Edule.Api/.idea/httpRequests/2023-03-18T111451.404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Edule.Api/.idea/httpRequests/http-client.cookies" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Edule.Api/.idea/httpRequests/http-client.cookies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Edule.Api/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Edule.Api/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Edule.Api/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Edule.Api/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Edule.Api/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Edule.Api/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Edule.Api/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Edule.Api/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Edule.Api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Edule.Api/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/.dockerignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Edule.Api/Controllers/EventController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/Controllers/EventController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Edule.Api/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api/Edule.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/Edule.Api.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api/Infra/DI/RegisterDependencies.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/Infra/DI/RegisterDependencies.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api/Infra/Data/EduleDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/Infra/Data/EduleDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api/Infra/Data/Entities/Address.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/Infra/Data/Entities/Address.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api/Infra/Data/Entities/BaseEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/Infra/Data/Entities/BaseEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api/Infra/Data/Entities/Establishment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/Infra/Data/Entities/Establishment.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api/Infra/Data/Entities/Event.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/Infra/Data/Entities/Event.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Edule.Api/Infra/Data/Entities/EventField.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/Infra/Data/Entities/EventField.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api/Infra/Data/Entities/Schedule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/Infra/Data/Entities/Schedule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api/Infra/Data/Entities/ScheduleAvailability.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/Infra/Data/Entities/ScheduleAvailability.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api/Infra/Data/Entities/ScheduleEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/Infra/Data/Entities/ScheduleEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api/Infra/Data/Entities/ScheduleException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/Infra/Data/Entities/ScheduleException.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api/Infra/Data/Extensions/EntityTypeBuilderExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/Infra/Data/Extensions/EntityTypeBuilderExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api/Infra/Data/Extensions/ModelBuilderExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/Infra/Data/Extensions/ModelBuilderExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api/Infra/Data/Mappings/Entities/AddressMapping.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/Infra/Data/Mappings/Entities/AddressMapping.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api/Infra/Data/Mappings/Entities/EstablishmentMapping.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/Infra/Data/Mappings/Entities/EstablishmentMapping.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api/Infra/Data/Mappings/Entities/EventFieldMapping.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/Infra/Data/Mappings/Entities/EventFieldMapping.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api/Infra/Data/Mappings/Entities/EventMapping.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/Infra/Data/Mappings/Entities/EventMapping.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api/Infra/Data/Mappings/Entities/ScheduleAvailabilityMapping.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/Infra/Data/Mappings/Entities/ScheduleAvailabilityMapping.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api/Infra/Data/Mappings/Entities/ScheduleEventMapping.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/Infra/Data/Mappings/Entities/ScheduleEventMapping.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api/Infra/Data/Mappings/Entities/ScheduleExceptionMapping.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/Infra/Data/Mappings/Entities/ScheduleExceptionMapping.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api/Infra/Data/Mappings/Entities/ScheduleMapping.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/Infra/Data/Mappings/Entities/ScheduleMapping.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api/Infra/LogEvents.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/Infra/LogEvents.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api/Infra/Mappers/EduleProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/Infra/Mappers/EduleProfile.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Edule.Api/Interfaces/Repositories/IEventRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/Interfaces/Repositories/IEventRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Edule.Api/Interfaces/Services/IEventService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/Interfaces/Services/IEventService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api/Models/EventRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/Models/EventRequest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api/Models/EventResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/Models/EventResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api/Models/ResponseContract.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/Models/ResponseContract.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/Properties/launchSettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Edule.Api/Repositories/EventRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/Repositories/EventRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Edule.Api/Services/EventService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/Services/EventService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Edule.Api/WeatherForecast.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Edule.Api/bin/Debug/net6.0/Edule.Api" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/bin/Debug/net6.0/Edule.Api" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Edule.Api/bin/Debug/net6.0/Edule.Api.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/bin/Debug/net6.0/Edule.Api.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Edule.Api/bin/Debug/net6.0/Edule.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/bin/Debug/net6.0/Edule.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Edule.Api/bin/Debug/net6.0/Edule.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/bin/Debug/net6.0/Edule.Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Edule.Api/obj/Debug/net6.0/Edule.Api.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/obj/Debug/net6.0/Edule.Api.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Edule.Api/obj/Debug/net6.0/Edule.Api.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/obj/Debug/net6.0/Edule.Api.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api/bin/Debug/net6.0/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/bin/Debug/net6.0/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api/bin/Debug/net6.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/bin/Debug/net6.0/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api/obj/Debug/net6.0/Edule.Api.GlobalUsings.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/obj/Debug/net6.0/Edule.Api.GlobalUsings.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api/obj/Debug/net6.0/Edule.Api.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/obj/Debug/net6.0/Edule.Api.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Edule.Api/obj/Debug/net6.0/Edule.Api.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/obj/Debug/net6.0/Edule.Api.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Edule.Api/obj/Debug/net6.0/Edule.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/obj/Debug/net6.0/Edule.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Edule.Api/obj/Debug/net6.0/Edule.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/obj/Debug/net6.0/Edule.Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Edule.Api/obj/Debug/net6.0/apphost" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/obj/Debug/net6.0/apphost" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Edule.Api/obj/Debug/net6.0/ref/Edule.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/obj/Debug/net6.0/ref/Edule.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Edule.Api/obj/Debug/net6.0/refint/Edule.Api.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api/obj/Edule.Api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/obj/Edule.Api.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api/obj/Edule.Api.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/obj/Edule.Api.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api/obj/Edule.Api.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/obj/Edule.Api.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edule.Api/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Edule.Api/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/Edule.Api/obj/staticwebassets.pack.sentinel" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Edule.Backend/Edule.Backend.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Edule.Backend/Edule.Backend.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Edule.Backend/Infra/DI/RegisterDependencies.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Edule.Backend/Infra/DI/RegisterDependencies.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Edule.Backend/Infra/Data/EduleDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Edule.Backend/Infra/Data/EduleDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Edule.Backend/Infra/Data/Entities/Address.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Edule.Backend/Infra/Data/Entities/Address.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Edule.Backend/Infra/Data/Entities/BaseEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Edule.Backend/Infra/Data/Entities/BaseEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Edule.Backend/Infra/Data/Entities/Establishment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Edule.Backend/Infra/Data/Entities/Establishment.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Edule.Backend/Infra/Data/Entities/Event.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Edule.Backend/Infra/Data/Entities/Event.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Edule.Backend/Infra/Data/Entities/EventField.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Edule.Backend/Infra/Data/Entities/EventField.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Edule.Backend/Infra/Data/Entities/Schedule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Edule.Backend/Infra/Data/Entities/Schedule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Edule.Backend/Infra/Data/Entities/ScheduleAvailability.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Edule.Backend/Infra/Data/Entities/ScheduleAvailability.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Edule.Backend/Infra/Data/Entities/ScheduleEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Edule.Backend/Infra/Data/Entities/ScheduleEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Edule.Backend/Infra/Data/Entities/ScheduleException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Edule.Backend/Infra/Data/Entities/ScheduleException.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Edule.Backend/Infra/Data/Extensions/EntityTypeBuilderExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Edule.Backend/Infra/Data/Extensions/EntityTypeBuilderExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Edule.Backend/Infra/Data/Mappings/Entities/AddressMapping.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Edule.Backend/Infra/Data/Mappings/Entities/AddressMapping.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Edule.Backend/Infra/Data/Mappings/Entities/EstablishmentMapping.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Edule.Backend/Infra/Data/Mappings/Entities/EstablishmentMapping.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Edule.Backend/Infra/Data/Mappings/Entities/EventFieldMapping.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Edule.Backend/Infra/Data/Mappings/Entities/EventFieldMapping.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Edule.Backend/Infra/Data/Mappings/Entities/EventMapping.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Edule.Backend/Infra/Data/Mappings/Entities/EventMapping.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Edule.Backend/Infra/Data/Mappings/Entities/ScheduleAvailabilityMapping.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Edule.Backend/Infra/Data/Mappings/Entities/ScheduleAvailabilityMapping.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Edule.Backend/Infra/Data/Mappings/Entities/ScheduleEventMapping.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Edule.Backend/Infra/Data/Mappings/Entities/ScheduleEventMapping.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Edule.Backend/Infra/Data/Mappings/Entities/ScheduleExceptionMapping.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Edule.Backend/Infra/Data/Mappings/Entities/ScheduleExceptionMapping.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Edule.Backend/Infra/Data/Mappings/Entities/ScheduleMapping.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Edule.Backend/Infra/Data/Mappings/Entities/ScheduleMapping.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Edule.Backend/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Edule.Backend/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Edule.Backend/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Edule.Backend/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Edule.Backend/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Edule.Backend/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Edule.Backend/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Edule.Backend/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Edule.Backend/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Edule.Backend/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Edule.Backend/obj/Debug/net6.0/Edule.Backend.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Edule.Backend/obj/Debug/net6.0/Edule.Backend.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Edule.Backend/obj/Debug/net6.0/Edule.Backend.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Edule.Backend/obj/Debug/net6.0/Edule.Backend.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Edule.Backend/obj/Debug/net6.0/Edule.Backend.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../Edule.Backend/obj/Debug/net6.0/Edule.Backend.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Edule.Backend/obj/Debug/net6.0/Edule.Backend.GlobalUsings.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Edule.Backend/obj/Debug/net6.0/Edule.Backend.GlobalUsings.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Edule.Backend/obj/Debug/net6.0/Edule.Backend.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Edule.Backend/obj/Debug/net6.0/Edule.Backend.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Edule.Backend/obj/Debug/net6.0/Edule.Backend.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Edule.Backend/obj/Debug/net6.0/Edule.Backend.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Edule.Backend/obj/Edule.Backend.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Edule.Backend/obj/Edule.Backend.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Edule.Backend/obj/Edule.Backend.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../Edule.Backend/obj/Edule.Backend.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Edule.Backend/obj/Edule.Backend.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/../Edule.Backend/obj/Edule.Backend.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Edule.Backend/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Edule.Backend/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Edule.Backend/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Edule.Backend/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Edule.Backend/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Edule.Backend/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Edule.Backend/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../Edule.Backend/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Folder.DotSettings" beforeDir="false" afterPath="$PROJECT_DIR$/../Folder.DotSettings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log" beforeDir="false" afterPath="$PROJECT_DIR$/../log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,54 +132,54 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/201163a2476615e8e92ea1f40cf5c4f545e20ffc550117de25937deb4102086/MvcServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/bebd253e21dcf766929bfdfd74615bfe46e6e1693b289273dbdb82152893/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Edule.Api/Controllers/EventController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Edule.Api/Infra/Data/EduleDbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Edule.Api/Infra/Data/Entities/BaseEntity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Edule.Api/Infra/Data/Entities/Event.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Edule.Api/Infra/Data/Entities/EventField.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Edule.Api/Interfaces/IEventService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Edule.Api/Interfaces/Repositories/IEventRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Edule.Api/Models/EventRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Edule.Api/Repositories/EventRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Edule.Api/Services/EventService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Edule.Backend/Infra/Data/Entities/Address.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file:///tmp/bitoAiDiff/EventController_5013.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file:///tmp/bitoAiDiff/EventController_7644.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectId" id="2NBO3E4902q6Uo3yBZTgPWJPDce" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/wesley/Workspace/levva/ticket/CustomerPortal-Billing-Balance-API",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode.C#",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/wesley/Workspace/levva/ticket/CustomerPortal-Billing-Balance-API&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ],
-    "rider.external.source.directories": [
-      "/home/wesley/.config/JetBrains/Rider2023.1/resharper-host/DecompilerCache",
-      "/home/wesley/.config/JetBrains/Rider2023.1/resharper-host/SourcesCache",
-      "/home/wesley/.local/share/Symbols/src"
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/home/wesley/.config/JetBrains/Rider2023.1/resharper-host/DecompilerCache&quot;,
+      &quot;/home/wesley/.config/JetBrains/Rider2023.1/resharper-host/SourcesCache&quot;,
+      &quot;/home/wesley/.local/share/Symbols/src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Edule.Api">
     <configuration name="rest-api | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
@@ -146,15 +239,27 @@
       <workItem from="1681467883814" duration="1260000" />
       <workItem from="1681483159393" duration="8000" />
       <workItem from="1681483181786" duration="6830000" />
-      <workItem from="1681813505390" duration="2734000" />
+      <workItem from="1681813505390" duration="4171000" />
+      <workItem from="1681898902668" duration="2235000" />
     </task>
+    <task id="LOCAL-00001" summary="Implement Delete event">
+      <created>1681821928861</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681821928861</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Implement Delete event" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement Delete event" />
   </component>
 </project>
