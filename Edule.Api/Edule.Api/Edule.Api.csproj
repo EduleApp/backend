@@ -85,4 +85,10 @@
       <Content Include="bin\Debug\net6.0\ZstdNet.dll" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Update="Procfile">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
 </Project>

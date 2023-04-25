@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZRnwzeW/Kt5ZSCy/BffQsetm4/3sQPPldeCyUHq5WPyxzXIru4zPcG8zoIYcm6NzUu1d6qBjpRRlHbGgF0nLPQ==",
+  "dgSpecHash": "ptTnvBmZUDG0dP/LCU3opg15j39DO0JmRDGHB90o8+rvv+mXcBHXmvCgVap7mRwnVg8BoBxnrfgTuGfLdxlVBA==",
   "success": true,
   "projectFilePath": "/home/wesley/Workspace/edule/2023/backend/Edule.Api/Edule.Api/Edule.Api.csproj",
   "expectedPackageFiles": [
@@ -59,6 +59,14 @@
     "/home/wesley/.nuget/packages/mysql.data/8.0.32/mysql.data.8.0.32.nupkg.sha512",
     "/home/wesley/.nuget/packages/mysql.entityframeworkcore/7.0.0/mysql.entityframeworkcore.7.0.0.nupkg.sha512",
     "/home/wesley/.nuget/packages/portable.bouncycastle/1.9.0/portable.bouncycastle.1.9.0.nupkg.sha512",
+    "/home/wesley/.nuget/packages/runtime.any.system.io/4.3.0/runtime.any.system.io.4.3.0.nupkg.sha512",
+    "/home/wesley/.nuget/packages/runtime.any.system.reflection/4.3.0/runtime.any.system.reflection.4.3.0.nupkg.sha512",
+    "/home/wesley/.nuget/packages/runtime.any.system.reflection.primitives/4.3.0/runtime.any.system.reflection.primitives.4.3.0.nupkg.sha512",
+    "/home/wesley/.nuget/packages/runtime.any.system.runtime/4.3.0/runtime.any.system.runtime.4.3.0.nupkg.sha512",
+    "/home/wesley/.nuget/packages/runtime.any.system.text.encoding/4.3.0/runtime.any.system.text.encoding.4.3.0.nupkg.sha512",
+    "/home/wesley/.nuget/packages/runtime.any.system.threading.tasks/4.3.0/runtime.any.system.threading.tasks.4.3.0.nupkg.sha512",
+    "/home/wesley/.nuget/packages/runtime.native.system/4.3.0/runtime.native.system.4.3.0.nupkg.sha512",
+    "/home/wesley/.nuget/packages/runtime.unix.system.private.uri/4.3.0/runtime.unix.system.private.uri.4.3.0.nupkg.sha512",
     "/home/wesley/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "/home/wesley/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "/home/wesley/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
@@ -70,6 +78,7 @@
     "/home/wesley/.nuget/packages/system.drawing.common/4.7.0/system.drawing.common.4.7.0.nupkg.sha512",
     "/home/wesley/.nuget/packages/system.io/4.3.0/system.io.4.3.0.nupkg.sha512",
     "/home/wesley/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
+    "/home/wesley/.nuget/packages/system.private.uri/4.3.0/system.private.uri.4.3.0.nupkg.sha512",
     "/home/wesley/.nuget/packages/system.reflection/4.3.0/system.reflection.4.3.0.nupkg.sha512",
     "/home/wesley/.nuget/packages/system.reflection.primitives/4.3.0/system.reflection.primitives.4.3.0.nupkg.sha512",
     "/home/wesley/.nuget/packages/system.runtime/4.3.0/system.runtime.4.3.0.nupkg.sha512",
@@ -85,7 +94,8 @@
     "/home/wesley/.nuget/packages/system.text.json/7.0.0/system.text.json.7.0.0.nupkg.sha512",
     "/home/wesley/.nuget/packages/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg.sha512",
     "/home/wesley/.nuget/packages/system.threading.tasks.extensions/4.5.1/system.threading.tasks.extensions.4.5.1.nupkg.sha512",
-    "/home/wesley/.nuget/packages/system.windows.extensions/4.7.0/system.windows.extensions.4.7.0.nupkg.sha512"
+    "/home/wesley/.nuget/packages/system.windows.extensions/4.7.0/system.windows.extensions.4.7.0.nupkg.sha512",
+    "/home/wesley/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.16/microsoft.netcore.app.host.linux-x64.6.0.16.nupkg.sha512"
   ],
   "logs": []
 }

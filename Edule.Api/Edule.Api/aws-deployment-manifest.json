@@ -1,0 +1,13 @@
+{
+  "manifestVersion": 1,
+  "deployments": {
+    "aspNetCoreWeb": [
+      {
+        "name": "Edule.Api",
+        "parameters": {
+          "appBundle": "edule-api.zip"
+        }
+      }
+    ]
+  }
+}
